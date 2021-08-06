@@ -87,8 +87,75 @@ p {
   }
   /* road picture spacing */
   .road {
-    padding: 40px 0px;
+    padding: 40px 0px 20px 0px;
   }
+
+  /* first dotted border */
+.topAbout {
+    padding: 10px;
+    border-bottom: 1px black dashed;
+}
+
+/* first set of pictures spacing */
+.firstSet {
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+.one {
+    width:46%;
+    border-bottom: 1px black dashed;
+    padding: 20px 5px 20px 20px;
+    margin: 0px 15px 0px 0px;
+}
+.two {
+    width:46%;
+    border-bottom: 1px black dashed;
+    padding: 20px 20px 20px 5px;
+    margin: 0px 0px 0px 15px;
+}
+/* second set of pictures spacing */
+.secondSet {
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+.three {
+    width:46%;
+    border-bottom: 1px black dashed;
+    padding: 20px 5px 20px 20px;
+    margin: 0px 15px 0px 0px;
+}
+.four {
+    width:46%;
+    border-bottom: 1px black dashed;
+    padding: 20px 20px 20px 5px;
+    margin: 0px 0px 0px 15px;
+}
+/* learn more styling */
+.learnMore {
+    text-decoration: none;
+    color:black;
+    border:2.5px solid black;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 14px;
+}
+/* spacing under paragraphs in the middle */
+.underPictures {
+    padding-bottom: 25px;
+}
+/* lets work together spacing */
+.letsWork {
+    padding: 20px;
+}
+/* spacing over h4 text */
+h4 {
+    padding-top: 10px;
+
+}
 
 .top-content {
     display: flex;
